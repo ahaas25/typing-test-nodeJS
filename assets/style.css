@@ -1,0 +1,41 @@
+.top-row {
+    color: rgb(120, 236, 220);
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+
+.aux-row {
+    color: rgba(120, 236, 220, .8);
+    font-size: 1rem;
+    padding: 0 0.75rem;
+}
+
+.select-row {
+    color: rgba(120, 236, 220, .7);
+    font-size: 0.75rem;
+    padding: 0 0.5rem;
+}
+
+#hud {
+    height: 5vh;
+}
+
+#top-bar, #aux-bar, #selection-bar {
+    justify-content: center; 
+    display: flex;
+    font-family: proxima-nova, sans-serif;
+}
+
+td:hover {
+    cursor: pointer;
+}
+
+#typing-game {
+    height: 90vh;
+}
+
+.centered-text {
+    justify-content: center;
+    display: flex;
+}

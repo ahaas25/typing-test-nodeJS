@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Typing Test</title>
+        <script src="two.js"></script>
+        <script src="index.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="hud">
+            <%- include('topbar.ejs')%>
+            <div id="aux-bar">
+                <table>
+                    <tr>
+                        <td class="aux-row">Words</td>
+                        <td class="aux-row">Timed</td>
+                        <td class="aux-row">Prompt</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="selection-bar">
+                <table>
+                    <tr>
+                        <td class="select-row">5</td> <!-- Generate these -->
+                        <td class="select-row">10</td> <!-- Generate these -->
+                        <td class="select-row">25</td> <!-- Generate these -->
+                        <td class="select-row">50</td> <!-- Generate these -->
+                        <td class="select-row">100</td> <!-- Generate these -->
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="typing-game"></div>
+    </body>
+</html>
+<script>
+    pageSetup();
+    curse();
+    draw();
+</script>
